@@ -15,6 +15,7 @@
 		DCE04893217D7A4100E1615C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCE04891217D7A4100E1615C /* LaunchScreen.storyboard */; };
 		DCE0489E217D7A4100E1615C /* glocraft_tabbedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE0489D217D7A4100E1615C /* glocraft_tabbedTests.swift */; };
 		DCE048A9217D7A4100E1615C /* glocraft_tabbedUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE048A8217D7A4100E1615C /* glocraft_tabbedUITests.swift */; };
+		DCE048B7217D833700E1615C /* color_button.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE048B6217D833700E1615C /* color_button.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		DCE048A4217D7A4100E1615C /* glocraft_tabbedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = glocraft_tabbedUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCE048A8217D7A4100E1615C /* glocraft_tabbedUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = glocraft_tabbedUITests.swift; sourceTree = "<group>"; };
 		DCE048AA217D7A4100E1615C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCE048B6217D833700E1615C /* color_button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = color_button.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				DCE04888217D7A4000E1615C /* FirstViewController.swift */,
 				DCE0488A217D7A4000E1615C /* SecondViewController.swift */,
 				DCE0488C217D7A4000E1615C /* Main.storyboard */,
+				DCE048B6217D833700E1615C /* color_button.swift */,
 				DCE0488F217D7A4100E1615C /* Assets.xcassets */,
 				DCE04891217D7A4100E1615C /* LaunchScreen.storyboard */,
 				DCE04894217D7A4100E1615C /* Info.plist */,
@@ -262,6 +265,7 @@
 				DCE0488B217D7A4000E1615C /* SecondViewController.swift in Sources */,
 				DCE04887217D7A4000E1615C /* AppDelegate.swift in Sources */,
 				DCE04889217D7A4000E1615C /* FirstViewController.swift in Sources */,
+				DCE048B7217D833700E1615C /* color_button.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
