@@ -18,7 +18,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GVT-0b-Nb1" customClass="color_button" customModule="glocraft_tabbed" customModuleProvider="target">
-                                <rect key="frame" x="37.5" y="44" width="100" height="50"/>
+                                <rect key="frame" x="37.5" y="144" width="100" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="9Ok-dG-QrG"/>
                                     <constraint firstAttribute="width" constant="100" id="SYB-nz-Da9"/>
@@ -28,7 +28,7 @@
                                         <integer key="value" value="1"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="color" keyPath="fillColor">
-                                        <color key="value" red="1" green="0.70588235294117641" blue="0.73725490196078436" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="value" red="1" green="0.70588235290000001" blue="0.73725490199999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
@@ -36,7 +36,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g5p-8E-adt" customClass="color_button" customModule="glocraft_tabbed" customModuleProvider="target">
-                                <rect key="frame" x="37.5" y="144" width="100" height="50"/>
+                                <rect key="frame" x="37.5" y="244" width="100" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="100" id="Jyu-Qy-pWb"/>
                                     <constraint firstAttribute="height" constant="50" id="UPq-hU-I1V"/>
@@ -54,14 +54,14 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="okn-Md-4Iu" customClass="color_button" customModule="glocraft_tabbed" customModuleProvider="target">
-                                <rect key="frame" x="37.5" y="244" width="100" height="50"/>
+                                <rect key="frame" x="37.5" y="344" width="100" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="100" id="3lA-2J-Ksx"/>
                                     <constraint firstAttribute="height" constant="50" id="ZWP-ig-8ua"/>
                                 </constraints>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="which_button">
-                                        <integer key="value" value="1"/>
+                                        <integer key="value" value="2"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="color" keyPath="fillColor">
                                         <color key="value" red="0.74901960784313726" green="0.3411764705882353" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -72,7 +72,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Naw-g6-kbP" customClass="color_button" customModule="glocraft_tabbed" customModuleProvider="target">
-                                <rect key="frame" x="37.5" y="344" width="100" height="50"/>
+                                <rect key="frame" x="37.5" y="444" width="100" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="100" id="Yi9-44-uzI"/>
                                     <constraint firstAttribute="height" constant="50" id="rzX-7B-DKg"/>
@@ -87,42 +87,46 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Breast cancer" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PzM-n9-FKe">
-                                <rect key="frame" x="166" y="59" width="106" height="21"/>
+                                <rect key="frame" x="166" y="159" width="106" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Dodgers" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hQB-LT-x6p">
-                                <rect key="frame" x="166" y="159" width="66" height="21"/>
+                                <rect key="frame" x="166" y="259" width="66" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Longhorns" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g1f-VR-Vb9">
-                                <rect key="frame" x="166" y="259" width="82" height="21"/>
+                                <rect key="frame" x="166" y="359" width="82" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="USA" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P7X-tb-Lj8">
-                                <rect key="frame" x="158" y="353" width="34" height="21"/>
+                                <rect key="frame" x="166" y="459" width="34" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="glocraft_logo" translatesAutoresizingMaskIntoConstraints="NO" id="icK-0S-QEV">
+                                <rect key="frame" x="47" y="20" width="240" height="105"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.070000000000000007" green="0.06750535102739727" blue="0.06750535102739727" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="g5p-8E-adt" firstAttribute="centerY" secondItem="PQr-Ze-W5v" secondAttribute="centerY" constant="-150" id="6BQ-Yo-rqO"/>
-                            <constraint firstItem="okn-Md-4Iu" firstAttribute="centerY" secondItem="PQr-Ze-W5v" secondAttribute="centerY" constant="-50" id="H2a-jd-5fh"/>
+                            <constraint firstItem="g5p-8E-adt" firstAttribute="centerY" secondItem="PQr-Ze-W5v" secondAttribute="centerY" constant="-50" id="6BQ-Yo-rqO"/>
+                            <constraint firstItem="okn-Md-4Iu" firstAttribute="centerY" secondItem="PQr-Ze-W5v" secondAttribute="centerY" constant="50" id="H2a-jd-5fh"/>
                             <constraint firstItem="GVT-0b-Nb1" firstAttribute="centerX" secondItem="PQr-Ze-W5v" secondAttribute="centerX" constant="-100" id="MY8-cA-RN2"/>
                             <constraint firstItem="okn-Md-4Iu" firstAttribute="centerX" secondItem="PQr-Ze-W5v" secondAttribute="centerX" constant="-100" id="SMV-5h-3hx"/>
-                            <constraint firstItem="GVT-0b-Nb1" firstAttribute="centerY" secondItem="PQr-Ze-W5v" secondAttribute="centerY" constant="-250" id="UGh-v8-hp0"/>
-                            <constraint firstItem="Naw-g6-kbP" firstAttribute="centerY" secondItem="PQr-Ze-W5v" secondAttribute="centerY" constant="50" id="pj2-ik-K7S"/>
+                            <constraint firstItem="GVT-0b-Nb1" firstAttribute="centerY" secondItem="PQr-Ze-W5v" secondAttribute="centerY" constant="-150" id="UGh-v8-hp0"/>
+                            <constraint firstItem="Naw-g6-kbP" firstAttribute="centerY" secondItem="PQr-Ze-W5v" secondAttribute="centerY" constant="150" id="pj2-ik-K7S"/>
                             <constraint firstItem="g5p-8E-adt" firstAttribute="centerX" secondItem="PQr-Ze-W5v" secondAttribute="centerX" constant="-100" id="xgS-8A-WfH"/>
                             <constraint firstItem="Naw-g6-kbP" firstAttribute="centerX" secondItem="PQr-Ze-W5v" secondAttribute="centerX" constant="-100" id="zJG-3H-SEB"/>
                         </constraints>
@@ -190,4 +194,7 @@
             <point key="canvasLocation" x="0.0" y="0.0"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="glocraft_logo" width="2208" height="1242"/>
+    </resources>
 </document>
