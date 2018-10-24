@@ -26,6 +26,32 @@ class FirstViewController: UIViewController {
       print("Longhorns suck!")
     case .america?:
       print("America!")
+    case .red?:
+      print("Red!")
+    case .green?:
+      print("Green!")
+    case .blue?:
+      print("Blue!")
+    case .yellow?:
+      print("Yellow!")
+    case .off?:
+      print("Off!")
+    case .diamond?:
+      print("Diamond!")
+    case .halfnhalf?:
+      print("Half and half!")
+    case .rainbow?:
+      print("Rainbow!")
+    case .redmag?:
+      print("Red mag!")
+    case .rotate?:
+      print("Rotate!")
+    case .rotate_stop?:
+      print("Rotate stop!")
+    case .cycle?:
+      print("Cycle!")
+    case .cycle_stop?:
+      print("Cycle stop!")
     default:
       print("Bad button!")
     }

@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:../BGXpress">
+   </FileRef>
+   <FileRef
       location = "self:glocraft_tabbed.xcodeproj">
    </FileRef>
 </Workspace>

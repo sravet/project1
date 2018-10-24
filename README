@@ -1,0 +1,8 @@
+importing BGXpress framework
+copy the project locally
+add the BGXpress project file to the main project
+update header paths
+add BGXpress to the Target Dependency
+add BGXpress to the list of link libraries
+add BGXpress to the list of Embedded Binaries
+

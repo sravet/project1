@@ -16,6 +16,9 @@
 		DCE0489E217D7A4100E1615C /* glocraft_tabbedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE0489D217D7A4100E1615C /* glocraft_tabbedTests.swift */; };
 		DCE048A9217D7A4100E1615C /* glocraft_tabbedUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE048A8217D7A4100E1615C /* glocraft_tabbedUITests.swift */; };
 		DCE048B7217D833700E1615C /* color_button.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE048B6217D833700E1615C /* color_button.swift */; };
+		DCE048E021801F5600E1615C /* BGXpress.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCE048DC21801CC300E1615C /* BGXpress.framework */; };
+		DCE04930218029A900E1615C /* BGXpress.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCE048DC21801CC300E1615C /* BGXpress.framework */; };
+		DCE04931218029A900E1615C /* BGXpress.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DCE048DC21801CC300E1615C /* BGXpress.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,7 +36,42 @@
 			remoteGlobalIDString = DCE04882217D7A4000E1615C;
 			remoteInfo = glocraft_tabbed;
 		};
+		DCE048DB21801CC300E1615C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCE048D721801CC300E1615C /* BGXpress.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F4EFC7DB1E44076200D19263;
+			remoteInfo = BGXpress;
+		};
+		DCE048DD21801F2B00E1615C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCE048D721801CC300E1615C /* BGXpress.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = F4EFC7DA1E44076200D19263;
+			remoteInfo = BGXpress;
+		};
+		DCE04932218029A900E1615C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCE048D721801CC300E1615C /* BGXpress.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = F4EFC7DA1E44076200D19263;
+			remoteInfo = BGXpress;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DCE04934218029A900E1615C /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				DCE04931218029A900E1615C /* BGXpress.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		DCE04883217D7A4000E1615C /* glocraft_tabbed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = glocraft_tabbed.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,6 +89,8 @@
 		DCE048A8217D7A4100E1615C /* glocraft_tabbedUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = glocraft_tabbedUITests.swift; sourceTree = "<group>"; };
 		DCE048AA217D7A4100E1615C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DCE048B6217D833700E1615C /* color_button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = color_button.swift; sourceTree = "<group>"; };
+		DCE048D62180158A00E1615C /* glocraft_tabbed-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "glocraft_tabbed-Bridging-Header.h"; sourceTree = "<group>"; };
+		DCE048D721801CC300E1615C /* BGXpress.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = BGXpress.xcodeproj; path = BGXpress/BGXpress.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +98,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCE04930218029A900E1615C /* BGXpress.framework in Frameworks */,
+				DCE048E021801F5600E1615C /* BGXpress.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,10 +123,13 @@
 		DCE0487A217D7A4000E1615C = {
 			isa = PBXGroup;
 			children = (
+				DCE048D62180158A00E1615C /* glocraft_tabbed-Bridging-Header.h */,
 				DCE04885217D7A4000E1615C /* glocraft_tabbed */,
 				DCE0489C217D7A4100E1615C /* glocraft_tabbedTests */,
 				DCE048A7217D7A4100E1615C /* glocraft_tabbedUITests */,
 				DCE04884217D7A4000E1615C /* Products */,
+				DCE048D721801CC300E1615C /* BGXpress.xcodeproj */,
+				DCE048DF21801F5600E1615C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -131,6 +176,21 @@
 			path = glocraft_tabbedUITests;
 			sourceTree = "<group>";
 		};
+		DCE048D821801CC300E1615C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCE048DC21801CC300E1615C /* BGXpress.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DCE048DF21801F5600E1615C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -141,10 +201,13 @@
 				DCE0487F217D7A4000E1615C /* Sources */,
 				DCE04880217D7A4000E1615C /* Frameworks */,
 				DCE04881217D7A4000E1615C /* Resources */,
+				DCE04934218029A900E1615C /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				DCE048DE21801F2B00E1615C /* PBXTargetDependency */,
+				DCE04933218029A900E1615C /* PBXTargetDependency */,
 			);
 			name = glocraft_tabbed;
 			productName = glocraft_tabbed;
@@ -221,6 +284,12 @@
 			mainGroup = DCE0487A217D7A4000E1615C;
 			productRefGroup = DCE04884217D7A4000E1615C /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = DCE048D821801CC300E1615C /* Products */;
+					ProjectRef = DCE048D721801CC300E1615C /* BGXpress.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				DCE04882217D7A4000E1615C /* glocraft_tabbed */,
@@ -229,6 +298,16 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		DCE048DC21801CC300E1615C /* BGXpress.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = BGXpress.framework;
+			remoteRef = DCE048DB21801CC300E1615C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		DCE04881217D7A4000E1615C /* Resources */ = {
@@ -297,6 +376,16 @@
 			isa = PBXTargetDependency;
 			target = DCE04882217D7A4000E1615C /* glocraft_tabbed */;
 			targetProxy = DCE048A5217D7A4100E1615C /* PBXContainerItemProxy */;
+		};
+		DCE048DE21801F2B00E1615C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BGXpress;
+			targetProxy = DCE048DD21801F2B00E1615C /* PBXContainerItemProxy */;
+		};
+		DCE04933218029A900E1615C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BGXpress;
+			targetProxy = DCE04932218029A900E1615C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -442,6 +531,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L7KFN79UDA;
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/BGXpress/";
 				INFOPLIST_FILE = glocraft_tabbed/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -449,8 +539,10 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "edu.self.glocraft-tabbed";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "glocraft_tabbed-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/BGXpress/";
 			};
 			name = Debug;
 		};
@@ -460,6 +552,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L7KFN79UDA;
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/BGXpress/";
 				INFOPLIST_FILE = glocraft_tabbed/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -467,8 +560,10 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "edu.self.glocraft-tabbed";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "glocraft_tabbed-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/BGXpress/";
 			};
 			name = Release;
 		};

@@ -35,6 +35,100 @@
                                     <action selector="pushButtonPressed:" destination="9pv-A4-QxB" eventType="touchUpInside" id="jpZ-YS-FrU"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bzk-CU-Bn2" customClass="color_button" customModule="glocraft_tabbed" customModuleProvider="target">
+                                <rect key="frame" x="237.5" y="144" width="100" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="Nwb-ex-A0f"/>
+                                    <constraint firstAttribute="width" constant="100" id="WTV-1c-vyV"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="which_button">
+                                        <integer key="value" value="4"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="fillColor">
+                                        <color key="value" red="0.84999999999999998" green="0.0" blue="0.014166666666666616" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="pushButtonPressed:" destination="9pv-A4-QxB" eventType="touchUpInside" id="bZ5-Mo-TJz"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="29o-Nd-AOS" customClass="color_button" customModule="glocraft_tabbed" customModuleProvider="target">
+                                <rect key="frame" x="237.5" y="244" width="100" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="chS-Q7-Fcf"/>
+                                    <constraint firstAttribute="height" constant="50" id="jfp-2r-HCS"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="which_button">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="fillColor">
+                                        <color key="value" red="0.0" green="0.75" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="pushButtonPressed:" destination="9pv-A4-QxB" eventType="touchUpInside" id="PZk-rN-XvQ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4uF-dC-Fbr" customClass="color_button" customModule="glocraft_tabbed" customModuleProvider="target">
+                                <rect key="frame" x="237.5" y="344" width="100" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="Qsa-1m-rM0"/>
+                                    <constraint firstAttribute="width" constant="100" id="lya-do-rcF"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="which_button">
+                                        <integer key="value" value="6"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="fillColor">
+                                        <color key="value" red="0.0" green="0.0047172171765168646" blue="0.84819135273972601" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="pushButtonPressed:" destination="9pv-A4-QxB" eventType="touchUpInside" id="xul-gM-9vu"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c0S-y7-7BP" customClass="color_button" customModule="glocraft_tabbed" customModuleProvider="target">
+                                <rect key="frame" x="237.5" y="444" width="100" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="IeU-Ud-ZLf"/>
+                                    <constraint firstAttribute="height" constant="50" id="Q3e-0u-Do2"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="which_button">
+                                        <integer key="value" value="7"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="fillColor">
+                                        <color key="value" red="0.84819135270000001" green="0.84819135270000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="pushButtonPressed:" destination="9pv-A4-QxB" eventType="touchUpInside" id="UDU-aB-hz4"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6vE-mT-PBu" customClass="color_button" customModule="glocraft_tabbed" customModuleProvider="target">
+                                <rect key="frame" x="137.5" y="544" width="100" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="CGC-25-tzU"/>
+                                    <constraint firstAttribute="width" constant="100" id="Lld-zn-xhI"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <state key="normal" title="Off">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="which_button">
+                                        <integer key="value" value="8"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="fillColor">
+                                        <color key="value" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="pushButtonPressed:" destination="9pv-A4-QxB" eventType="touchUpInside" id="Yu2-Ng-o03"/>
+                                </connections>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g5p-8E-adt" customClass="color_button" customModule="glocraft_tabbed" customModuleProvider="target">
                                 <rect key="frame" x="37.5" y="244" width="100" height="50"/>
                                 <constraints>
@@ -86,47 +180,29 @@
                                     <action selector="pushButtonPressed:" destination="9pv-A4-QxB" eventType="touchUpInside" id="sHn-86-Ird"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Breast cancer" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PzM-n9-FKe">
-                                <rect key="frame" x="166" y="159" width="106" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Dodgers" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hQB-LT-x6p">
-                                <rect key="frame" x="166" y="259" width="66" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Longhorns" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g1f-VR-Vb9">
-                                <rect key="frame" x="166" y="359" width="82" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="USA" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P7X-tb-Lj8">
-                                <rect key="frame" x="166" y="459" width="34" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="glocraft_logo" translatesAutoresizingMaskIntoConstraints="NO" id="icK-0S-QEV">
-                                <rect key="frame" x="47" y="20" width="240" height="105"/>
+                                <rect key="frame" x="67" y="20" width="240" height="105"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" red="0.070000000000000007" green="0.06750535102739727" blue="0.06750535102739727" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.070000000000000007" green="0.067505351029999994" blue="0.067505351029999994" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="c0S-y7-7BP" firstAttribute="centerX" secondItem="PQr-Ze-W5v" secondAttribute="centerX" constant="100" id="1Qf-T1-KGb"/>
                             <constraint firstItem="g5p-8E-adt" firstAttribute="centerY" secondItem="PQr-Ze-W5v" secondAttribute="centerY" constant="-50" id="6BQ-Yo-rqO"/>
+                            <constraint firstItem="4uF-dC-Fbr" firstAttribute="centerX" secondItem="PQr-Ze-W5v" secondAttribute="centerX" constant="100" id="BTJ-qp-avn"/>
+                            <constraint firstItem="6vE-mT-PBu" firstAttribute="centerX" secondItem="PQr-Ze-W5v" secondAttribute="centerX" id="EWP-ag-SNo"/>
                             <constraint firstItem="okn-Md-4Iu" firstAttribute="centerY" secondItem="PQr-Ze-W5v" secondAttribute="centerY" constant="50" id="H2a-jd-5fh"/>
                             <constraint firstItem="GVT-0b-Nb1" firstAttribute="centerX" secondItem="PQr-Ze-W5v" secondAttribute="centerX" constant="-100" id="MY8-cA-RN2"/>
+                            <constraint firstItem="Bzk-CU-Bn2" firstAttribute="centerX" secondItem="PQr-Ze-W5v" secondAttribute="centerX" constant="100" id="RnF-2W-opq"/>
                             <constraint firstItem="okn-Md-4Iu" firstAttribute="centerX" secondItem="PQr-Ze-W5v" secondAttribute="centerX" constant="-100" id="SMV-5h-3hx"/>
                             <constraint firstItem="GVT-0b-Nb1" firstAttribute="centerY" secondItem="PQr-Ze-W5v" secondAttribute="centerY" constant="-150" id="UGh-v8-hp0"/>
+                            <constraint firstItem="6vE-mT-PBu" firstAttribute="centerY" secondItem="PQr-Ze-W5v" secondAttribute="centerY" constant="250" id="WCc-bC-SrC"/>
+                            <constraint firstItem="c0S-y7-7BP" firstAttribute="centerY" secondItem="PQr-Ze-W5v" secondAttribute="centerY" constant="150" id="YYy-81-whQ"/>
+                            <constraint firstItem="29o-Nd-AOS" firstAttribute="centerY" secondItem="PQr-Ze-W5v" secondAttribute="centerY" constant="-50" id="cQ8-1P-eHj"/>
+                            <constraint firstItem="29o-Nd-AOS" firstAttribute="centerX" secondItem="PQr-Ze-W5v" secondAttribute="centerX" constant="100" id="naa-fU-aFI"/>
                             <constraint firstItem="Naw-g6-kbP" firstAttribute="centerY" secondItem="PQr-Ze-W5v" secondAttribute="centerY" constant="150" id="pj2-ik-K7S"/>
+                            <constraint firstItem="4uF-dC-Fbr" firstAttribute="centerY" secondItem="PQr-Ze-W5v" secondAttribute="centerY" constant="50" id="raY-Dz-GCM"/>
+                            <constraint firstItem="Bzk-CU-Bn2" firstAttribute="centerY" secondItem="PQr-Ze-W5v" secondAttribute="centerY" constant="-150" id="uJe-iS-KPj"/>
                             <constraint firstItem="g5p-8E-adt" firstAttribute="centerX" secondItem="PQr-Ze-W5v" secondAttribute="centerX" constant="-100" id="xgS-8A-WfH"/>
                             <constraint firstItem="Naw-g6-kbP" firstAttribute="centerX" secondItem="PQr-Ze-W5v" secondAttribute="centerX" constant="-100" id="zJG-3H-SEB"/>
                         </constraints>
@@ -146,26 +222,229 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="Second View" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="zEq-FU-wV5">
-                                <rect key="frame" x="87" y="312" width="201.5" height="43"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Loaded by SecondViewController" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NDk-cv-Gan">
-                                <rect key="frame" x="80" y="363" width="215" height="17"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="glocraft_logo" translatesAutoresizingMaskIntoConstraints="NO" id="Gg8-Zv-RGq">
+                                <rect key="frame" x="67" y="20" width="240" height="105"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BXG-PC-kH6" customClass="color_button" customModule="glocraft_tabbed" customModuleProvider="target">
+                                <rect key="frame" x="237.5" y="144" width="100" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="nmF-O9-epC"/>
+                                    <constraint firstAttribute="height" constant="50" id="pBz-Un-CuE"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <state key="normal" title="Rainbow">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="which_button">
+                                        <integer key="value" value="11"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="fillColor">
+                                        <color key="value" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="pushButtonPressed:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="cUD-cH-Odz"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Ad-le-eRW" customClass="color_button" customModule="glocraft_tabbed" customModuleProvider="target">
+                                <rect key="frame" x="37.5" y="144" width="100" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="3o3-EL-BfF"/>
+                                    <constraint firstAttribute="width" constant="100" id="Ivh-nS-9bg"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <state key="normal" title="Diamond">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="which_button">
+                                        <integer key="value" value="9"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="fillColor">
+                                        <color key="value" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="pushButtonPressed:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="E5x-bO-ZFF"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Az1-xh-QKn" customClass="color_button" customModule="glocraft_tabbed" customModuleProvider="target">
+                                <rect key="frame" x="237.5" y="244" width="100" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="aKD-V8-8ma"/>
+                                    <constraint firstAttribute="width" constant="100" id="srf-zC-DnA"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <state key="normal" title="Red Mag">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="which_button">
+                                        <integer key="value" value="12"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="fillColor">
+                                        <color key="value" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="pushButtonPressed:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="0dw-Qe-taq"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cP5-Az-m80" customClass="color_button" customModule="glocraft_tabbed" customModuleProvider="target">
+                                <rect key="frame" x="37.5" y="244" width="100" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="QQ9-ee-6sP"/>
+                                    <constraint firstAttribute="height" constant="50" id="hea-Cf-fi9"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <state key="normal" title="Half-n-Half">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="which_button">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="fillColor">
+                                        <color key="value" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="pushButtonPressed:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="Hjk-y6-5ey"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ayo-at-lf1" customClass="color_button" customModule="glocraft_tabbed" customModuleProvider="target">
+                                <rect key="frame" x="237.5" y="344" width="100" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="gOi-1N-220"/>
+                                    <constraint firstAttribute="height" constant="50" id="oh8-Hv-bmX"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <state key="normal" title="Stop Rotate">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="which_button">
+                                        <integer key="value" value="14"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="fillColor">
+                                        <color key="value" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="pushButtonPressed:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="gBA-lu-T8W"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I11-wV-ABp" customClass="color_button" customModule="glocraft_tabbed" customModuleProvider="target">
+                                <rect key="frame" x="37.5" y="344" width="100" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="LcG-Rb-zkw"/>
+                                    <constraint firstAttribute="width" constant="100" id="qBe-qO-jBs"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <state key="normal" title="Rotate">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="which_button">
+                                        <integer key="value" value="13"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="fillColor">
+                                        <color key="value" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="pushButtonPressed:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="G6p-Hb-EXt"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8FU-rp-R4D" customClass="color_button" customModule="glocraft_tabbed" customModuleProvider="target">
+                                <rect key="frame" x="37.5" y="444" width="100" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="ote-5K-5kF"/>
+                                    <constraint firstAttribute="height" constant="50" id="tpA-xJ-d7z"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <state key="normal" title="Cycle">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="which_button">
+                                        <integer key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="fillColor">
+                                        <color key="value" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="pushButtonPressed:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="37L-4w-KJ2"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R8W-Np-Y3r" customClass="color_button" customModule="glocraft_tabbed" customModuleProvider="target">
+                                <rect key="frame" x="137.5" y="544" width="100" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="uYX-il-h3Y"/>
+                                    <constraint firstAttribute="height" constant="50" id="xEc-0g-dNO"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <state key="normal" title="Off">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="which_button">
+                                        <integer key="value" value="8"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="fillColor">
+                                        <color key="value" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="pushButtonPressed:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="2If-yS-dyn"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AFM-QT-JLU" customClass="color_button" customModule="glocraft_tabbed" customModuleProvider="target">
+                                <rect key="frame" x="237.5" y="444" width="100" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="Clz-kd-imX"/>
+                                    <constraint firstAttribute="width" constant="100" id="dfr-Lo-kiF"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <state key="normal" title="Stop Cycle">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="which_button">
+                                        <integer key="value" value="16"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="fillColor">
+                                        <color key="value" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="pushButtonPressed:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="WHw-6n-RBi"/>
+                                </connections>
+                            </button>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.070000000000000007" green="0.06720000000000001" blue="0.067246666666666677" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="NDk-cv-Gan" firstAttribute="top" secondItem="zEq-FU-wV5" secondAttribute="bottom" constant="8" symbolic="YES" id="Day-4N-Vmt"/>
-                            <constraint firstItem="NDk-cv-Gan" firstAttribute="centerX" secondItem="zEq-FU-wV5" secondAttribute="centerX" id="JgO-Fn-dHn"/>
-                            <constraint firstAttribute="centerX" secondItem="zEq-FU-wV5" secondAttribute="centerX" id="qqM-NS-xev"/>
-                            <constraint firstAttribute="centerY" secondItem="zEq-FU-wV5" secondAttribute="centerY" id="qzY-Ky-pLD"/>
+                            <constraint firstItem="ayo-at-lf1" firstAttribute="centerY" secondItem="O1u-W8-tvY" secondAttribute="centerY" constant="50" id="603-0j-WkA"/>
+                            <constraint firstItem="8FU-rp-R4D" firstAttribute="centerX" secondItem="O1u-W8-tvY" secondAttribute="centerX" constant="-100" id="6Zg-l4-QTQ"/>
+                            <constraint firstItem="BXG-PC-kH6" firstAttribute="centerY" secondItem="O1u-W8-tvY" secondAttribute="centerY" constant="-150" id="B4p-Re-k3J"/>
+                            <constraint firstItem="ayo-at-lf1" firstAttribute="centerX" secondItem="O1u-W8-tvY" secondAttribute="centerX" constant="100" id="BD1-0N-p96"/>
+                            <constraint firstItem="AFM-QT-JLU" firstAttribute="centerX" secondItem="O1u-W8-tvY" secondAttribute="centerX" constant="100" id="BXi-F7-RpA"/>
+                            <constraint firstItem="Az1-xh-QKn" firstAttribute="centerY" secondItem="O1u-W8-tvY" secondAttribute="centerY" constant="-50" id="FKi-bQ-bb6"/>
+                            <constraint firstItem="6Ad-le-eRW" firstAttribute="centerY" secondItem="O1u-W8-tvY" secondAttribute="centerY" constant="-150" id="IX2-lc-QZk"/>
+                            <constraint firstItem="cP5-Az-m80" firstAttribute="centerX" secondItem="O1u-W8-tvY" secondAttribute="centerX" constant="-100" id="M2r-Vr-bVw"/>
+                            <constraint firstItem="I11-wV-ABp" firstAttribute="centerX" secondItem="O1u-W8-tvY" secondAttribute="centerX" constant="-100" id="SJk-oi-n9i"/>
+                            <constraint firstItem="BXG-PC-kH6" firstAttribute="centerX" secondItem="O1u-W8-tvY" secondAttribute="centerX" constant="100" id="Yqc-dT-X4T"/>
+                            <constraint firstItem="cP5-Az-m80" firstAttribute="centerY" secondItem="O1u-W8-tvY" secondAttribute="centerY" constant="-50" id="ZIC-OR-Wnb"/>
+                            <constraint firstItem="I11-wV-ABp" firstAttribute="centerY" secondItem="O1u-W8-tvY" secondAttribute="centerY" constant="50" id="gLk-Ab-GRh"/>
+                            <constraint firstItem="8FU-rp-R4D" firstAttribute="centerY" secondItem="O1u-W8-tvY" secondAttribute="centerY" constant="150" id="i6U-al-Tav"/>
+                            <constraint firstItem="Az1-xh-QKn" firstAttribute="centerX" secondItem="O1u-W8-tvY" secondAttribute="centerX" constant="100" id="iHC-Bj-nlQ"/>
+                            <constraint firstItem="6Ad-le-eRW" firstAttribute="centerX" secondItem="O1u-W8-tvY" secondAttribute="centerX" constant="-100" id="uJ6-QD-Q8C"/>
+                            <constraint firstItem="R8W-Np-Y3r" firstAttribute="centerX" secondItem="O1u-W8-tvY" secondAttribute="centerX" id="xgW-Ue-ayU"/>
+                            <constraint firstItem="R8W-Np-Y3r" firstAttribute="centerY" secondItem="O1u-W8-tvY" secondAttribute="centerY" constant="250" id="xnF-Xr-sv0"/>
+                            <constraint firstItem="AFM-QT-JLU" firstAttribute="centerY" secondItem="O1u-W8-tvY" secondAttribute="centerY" constant="150" id="ybU-Wo-BAr"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="O1u-W8-tvY"/>
                     </view>
